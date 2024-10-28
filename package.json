@@ -1,0 +1,19 @@
+{
+  "name": "screenshot-text-extractor",
+  "version": "1.0.0",
+  "description": "Electron app to capture screen, extract text using OCR, copy to clipboard, and manage history",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["electron", "screenshot", "OCR", "clipboard", "text extraction"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "clipboardy": "^4.0.0",
+    "electron": "^33.0.2",
+    "screenshot-desktop": "^2.0.9",
+    "tesseract.js": "^5.1.1"
+  }
+}
